@@ -12,3 +12,6 @@
     ```
     docker compose run --rm firebase firebase login --no-localhost
     ```
+
+## Setup（プロジェクト管理者）
+- GitHub Actionの環境変数を設定
