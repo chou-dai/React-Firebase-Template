@@ -56,7 +56,7 @@ git checkout main
 
 git pull origin main
 
-git merge dev
+git merge develop
 
 git tag -a v$new_version -m "Release version $new_version"
 
@@ -68,8 +68,8 @@ git branch -d release-$new_version
 
 git stash pop
 
-git checkout dev
+git checkout develop
 
-git push origin dev
+git push origin develop
 
 echo "Version $new_version has been released."
