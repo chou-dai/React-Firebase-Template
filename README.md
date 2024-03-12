@@ -14,4 +14,4 @@
     ```
 
 ## Setup（プロジェクト管理者）
-- GitHub Actionの環境変数を設定
+- GitHub Actionsの環境変数を設定
