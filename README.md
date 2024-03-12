@@ -1,7 +1,7 @@
 # React Firebase Template
 高速でReactとFirebaseのプロジェクトを開発するためのテンプレート
 - Firebase EmulatorとReactの接続（ローカル開発）
-- pre-commit時のコードフォーマット（プロジェクトルートでgit commit）
+- pre-commit時のコードフォーマット（プロジェクトルートでgit commit時）
 - Firebase Hostingへの自動デプロイ（GitHub Actions）
 
 ## Setup
