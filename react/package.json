@@ -12,9 +12,6 @@
     "preview": "vite preview",
     "prepare": "cd .. && husky react/.husky",
     "prepare:husky": "cd .. && npx husky add react.husky/pre-commit 'npx lint-staged'",
-    "release:major": "bash ./shells/release.sh major",
-    "release:minor": "bash ./shells/release.sh minor",
-    "release:patch": "bash ./shells/release.sh patch",
     "deploy": "npm run build && firebase deploy"
   },
   "dependencies": {
