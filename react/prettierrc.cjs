@@ -2,7 +2,7 @@ const sortImports = require.resolve("@trivago/prettier-plugin-sort-imports")
 
 module.exports = {
   trailingComma: "all",
-  tabWidth: 4,
+  tabWidth: 2,
   printWidth: 100,
   arrowParens: "always",
   semi: true,
