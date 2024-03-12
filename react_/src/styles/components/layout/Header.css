@@ -1,0 +1,66 @@
+#group-page-button{
+    border-bottom: 3px solid transparent;
+    /* 下線を透明で定義 */
+    transition: border-bottom-color 0.3s ease-in-out;
+    /* トランジション効果を追加 */
+}
+
+#group-page-button:hover {
+    border-bottom-color: #4682A9;
+    /* ホバー時の下線の色 */
+}
+
+#recruit-page-button {
+    border-bottom: 3px solid transparent;
+    /* 下線を透明で定義 */
+    transition: border-bottom-color 0.3s ease-in-out;
+    /* トランジション効果を追加 */
+}
+
+#recruit-page-button:hover {
+    border-bottom-color: #4682A9;
+    /* ホバー時の下線の色 */
+}
+
+#support-page-button.hover-effect {
+    position: relative;
+    transition: border-bottom-color 0.3s ease-in-out;
+}
+
+#support-page-button.hover-effect::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -7px;
+    /* 下線から少し離れた位置に矢印を配置 */
+    border: 8px solid transparent;
+    border-top-color: #4682B4;
+    /* 常時表示する矢印の色 */
+    transition: border-top-color 0.3s ease-in-out;
+    transform: translateX(-50%);
+    /* 矢印を中央に配置 */
+}
+
+
+#mypage-button{
+    padding-bottom: 5px;
+}
+
+#mypage-button.hover-effect {
+    position: relative;
+    transition: border-bottom-color 0.3s ease-in-out;
+}
+
+#mypage-button.hover-effect::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -7px;
+    /* 下線から少し離れた位置に矢印を配置 */
+    border: 8px solid transparent;
+    border-top-color: #4682B4;
+    /* 常時表示する矢印の色 */
+    transition: border-top-color 0.3s ease-in-out;
+    transform: translateX(-50%);
+    /* 矢印を中央に配置 */
+}

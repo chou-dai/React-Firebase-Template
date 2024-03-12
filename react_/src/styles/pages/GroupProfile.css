@@ -1,0 +1,8 @@
+.bold-with-underline {
+    font-weight: bold;
+    /* テキストを太字に */
+    text-decoration: underline;
+    /* アンダーバー（下線）を追加 */
+    text-decoration-thickness: auto;
+    /* 下線の太さをテキストと同じにする（ブラウザによっては効かない場合があります） */
+}
