@@ -1,0 +1,24 @@
+services:
+  firebase:
+    build:
+      context: .
+      dockerfile: ./firebase/Dockerfile
+    volumes:
+      - ./firebase/.firebaserc:/opt/firebase/.firebaserc
+      - ./firebase/firebase.json:/opt/firebase/firebase.json
+      - ./firebase/firestore.indexes.json:/opt/firebase/firestore.indexes.json
+      - ./firebase/firestore.rules:/opt/firebase/firestore.rules
+      - ./firebase/storage.rules:/opt/firebase/storage.rules
+      - ./firebase/bin/:/root/.cache:cached
+      - ./firebase/config/:/root/.config:cached
+    ports:
+      - 9099:9099 # Firebase Authentication
+      - 5001:5001 # Clound Functions
+      - 8080:8080 # Cloud Firestore
+      - 9000:9000 # Realtime Database
+      - 5002:5002 # Firebase Hosting
+      - 8085:8085 # Cloud Pub/Sub
+      - 9199:9199 # Cloud Storage
+      - 4000:4000 # Emulator Suite UI
+    working_dir: /opt/firebase
+    command: firebase emulators:start
