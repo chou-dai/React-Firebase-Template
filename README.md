@@ -2,7 +2,8 @@
 高速でReactとFirebaseのプロジェクトを開発するためのテンプレート
 
 ## Setup
-- `./firebase`ディレクトリの`.firebaserc-sample`をコピーして`.firebaserc`を作成、プロジェクト名を記入
+- `./firebase`ディレクトリと`./react`ディレクトリの`.firebaserc.sample`をコピーして`.firebaserc`を作成、プロジェクト名を記入
+- `./react`ディレクトリの`.env.sample`をコピーして`.env`を作成、環境変数を定義
 - Docker Compose をビルド
     ```
     docker compose build
