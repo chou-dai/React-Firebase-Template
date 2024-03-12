@@ -10,7 +10,7 @@
     "lint:fix": "npm run lint -- --fix",
     "format": "npm run lint:fix && prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
     "preview": "vite preview",
-    "prepare": "husky",
+    "prepare": "cd .. && husky react/.husky",
     "prepare:husky": "cd .. && npx husky add react.husky/pre-commit 'npx lint-staged'"
   },
   "dependencies": {
