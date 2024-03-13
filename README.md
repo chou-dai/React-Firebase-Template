@@ -24,4 +24,9 @@
     - React：http://localhost:3000
 
 ## Setup（プロジェクト管理者）
+- Firebaseのプロジェクト作成
+    - Fireabase Authentication
+    - Firestore
+    - Hosing
+    - storage 
 - GitHub Actionsの環境変数を設定
