@@ -5,7 +5,8 @@
 - Firebase Hostingへの自動デプロイ（GitHub Actions）
 
 ## Setup
-- `./firebase`ディレクトリと`./react`ディレクトリの`.firebaserc.sample`をコピーして`.firebaserc`を作成、プロジェクト名を記入
+- `./firebase`ディレクトリの`.firebaserc.sample`をコピーして`.firebaserc`を作成、プロジェクト名を記入
+- `./react`ディレクトリの`.firebaserc.sample`をコピーして`.firebaserc`を作成、プロジェクト名を記入
 - `./react`ディレクトリの`.env.sample`をコピーして`.env`を作成、環境変数を定義
 - Docker Compose をビルド
     ```

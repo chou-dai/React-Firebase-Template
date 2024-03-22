@@ -5,3 +5,5 @@
 /firebase/bin/firebase/
 
 .env
+
+.DS_Store
